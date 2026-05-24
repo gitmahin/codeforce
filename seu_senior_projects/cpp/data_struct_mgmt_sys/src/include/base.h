@@ -15,4 +15,15 @@
 #include <iostream>
 using namespace std;
 
+namespace base
+{
+    // Universal alias for menu options selection variables data type
+    using OptionSelectionDataType = char;
+    const string APP_TITLE = "DATA STRUCTURE MANAGEMENT SYSTEM";
+
+    // Methods
+    void showAppTitle();
+    void exitApp();
+}
+
 #endif
